@@ -1,0 +1,47 @@
+:root{
+  --primary: #0077b6;
+  --accent: #ffb703;
+  --bg: #f4f4f9;
+  --text: #222;
+}
+
+*{box-sizing:border-box}
+body{
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  margin:0; color:var(--text); background:var(--bg); line-height:1.5;
+}
+
+/* NAV */
+header{background:#111;color:#fff}
+nav{
+  max-width:1100px;margin:auto;padding:12px 20px;display:flex;justify-content:space-between;align-items:center;
+}
+.logo{margin:0;font-size:1.2rem}
+.nav-links{list-style:none;display:flex;gap:18px;margin:0;padding:0}
+.nav-links a{color:#fff;text-decoration:none}
+
+/* HERO */
+.hero{background:var(--primary);color:#fff;text-align:center;padding:60px 20px}
+.hero h2{margin:0 0 10px}
+.btn{display:inline-block;margin-top:14px;padding:10px 18px;background:var(--accent);color:#000;text-decoration:none;border-radius:6px}
+
+/* SECTIONS */
+section{max-width:1100px;margin:40px auto;padding:0 20px}
+section h2{text-align:center;color:var(--primary);margin-bottom:18px}
+
+/* SKILLS */
+.skills-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(110px,1fr));gap:12px;text-align:center}
+.skills-grid span{background:#fff;padding:10px;border-radius:8px;box-shadow:0 2px 6px rgba(0,0,0,0.06);font-weight:600}
+
+/* PROJECTS */
+.project{background:#fff;padding:14px;border-left:5px solid var(--primary);margin-bottom:12px;border-radius:6px}
+
+/* FOOTER */
+footer{text-align:center;padding:12px;background:#111;color:#fff;margin-top:30px}
+
+/* Responsive */
+@media (max-width:768px){
+  .nav-links{display:none}
+  .hero{padding:40px 16px}
+  section{margin:20px auto}
+}
