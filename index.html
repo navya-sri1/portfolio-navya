@@ -1,96 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Navya Sri | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navya Sri Portfolio</title>
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Simple inline CSS if you don't have a separate file yet */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        .download-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-  <!-- Header / Navbar -->
-  <header>
-    <nav>
-      <h1>Navya Sri</h1>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h2>ECE Student | Full-Stack Developer</h2>
-    <p>Building web apps, exploring IoT & AI, and passionate about solving problems with technology.</p>
-    <a href="assets/resume.pdf" class="btn">Download Resume</a>
-  </section>
+    <header>
+        <h1>Navya Sri</h1>
+        <p>Frontend Developer | Web Designer | Portfolio</p>
+    </header>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      I’m an Electronics and Communication Engineering student (B.Tech, 2026) with hands-on experience in 
-      full-stack development, embedded systems, and AI/ML. I love building real-world solutions and 
-      continuously learning new technologies.
-    </p>
-  </section>
+    <section>
+        <h2>About Me</h2>
+        <p>Hi! I'm Navya Sri, a web developer passionate about creating responsive and modern websites. I love turning ideas into reality with clean and efficient code.</p>
+    </section>
 
-  <!-- Skills -->
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>React.js</span>
-      <span>Node.js</span>
-      <span>Express.js</span>
-      <span>SQL</span>
-      <span>Git</span>
-      <span>Power BI</span>
-    </div>
-  </section>
+    <section>
+        <h2>Resume</h2>
+        <p>Click below to download my resume:</p>
+        <!-- Download link -->
+        <a href="assets/resume.pdf" class="download-btn" download>Download Resume</a>
+    </section>
 
-  <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Task Manager</h3>
-      <p>Task management app with authentication and CRUD features using Node.js, Express, and MongoDB.</p>
-    </div>
-    <div class="project">
-      <h3>E-Commerce Web Application</h3>
-      <p>Product catalog, shopping cart, and secure checkout system with React and payment API integration.</p>
-    </div>
-    <div class="project">
-      <h3>Chat Application</h3>
-      <p>Real-time chat with authentication and responsive UI.</p>
-    </div>
-  </section>
+    <section>
+        <h2>Portfolio</h2>
+        <p>Here you can showcase your projects with images and links.</p>
+        <!-- Example project -->
+        <div>
+            <img src="assets/project1.png" alt="Project 1" width="300">
+            <p>Project 1: Description goes here.</p>
+        </div>
+    </section>
 
-  <!-- Certifications -->
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-      <li>AI & ML Using Python – Tessolve</li>
-      <li>Oracle APEX Cloud Developer</li>
-      <li>Salesforce Certified AI Associate</li>
-      <li>System Verilog & UVM – TARAS</li>
-    </ul>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:velagalanavyasri@gmail.com">velagalanavyasri@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/velagala-navya-sri-0985a128b" target="_blank">Profile</a></p>
-  </section>
-
-  <footer>
-    <p>© 2025 Navya Sri | All Rights Reserved</p>
-  </footer>
 </body>
 </html>
+
